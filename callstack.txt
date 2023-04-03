@@ -1,0 +1,16 @@
+call stack kind of stack of functions hota he... jab bhi koi function ko call krenge tab vo function ki stack frame stack me push ho jayegi (container type samaj)
+
+fir jse hi koi function ka outpit aayega.. that func will be popped from the stack
+
+stack me hota ye he ki... Book of stack mese nayi book sirf upar hi rakh sakte he.. similarly book nikalni ho to upar se hi nikal sakte he 
+
+in file of function.cpp:
+
+pehle int main() ki stack frame sabse niche chali gayi
+fir int factorial vala function usk upar gaya
+and usk bad void print() vala function sabse upar gaya as called.
+
+
+fir jese hi void vale function ki value return hui, vo frame se nikal jayega.. fir factorial vala function jab run ho jayega tab vo bhi frame se nikal jayega
+
+jo func ka stack frame sabse upar hoga vo exxecute hoga pehle.
